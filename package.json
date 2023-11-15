@@ -1,7 +1,7 @@
 {
   "name": "personal_portfolio",
   "version": "0.1.0",
-  "homepage": "https://mirasnag.github.io/portfolio",
+  "homepage": "https://mirasnag.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
