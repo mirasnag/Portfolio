@@ -3,7 +3,7 @@ import LogoTitle from '../../assets/images/logoM4.png'
 import { Link } from 'react-router-dom'; 
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo';
+import Photo from './Photo';
 import Loader from 'react-loaders';
 
 const Home = () => {
@@ -39,7 +39,7 @@ const Home = () => {
                 {/* <h2>Frontend Developer / Javascript Expert / Youtuber</h2> */}
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <Logo />
+            <Photo />
         </div>
         <Loader type='pacman' />
         </>
